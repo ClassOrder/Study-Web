@@ -36,3 +36,4 @@ order | \<integer\>;
 #### What different flex-basis vs width / height ?
 
 * [x] [Good Reference in StackOverflow](https://stackoverflow.com/a/34355447)
+* [x] [Korean Language for flexbox & good links](http://webclub.tistory.com/259)
