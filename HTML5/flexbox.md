@@ -4,8 +4,8 @@ Reference: Traversy Media Youtube channel(with http://scratchpad.io/)
 
 #### A CSS3 layout mode that provides an easy and clean way to arrange items within a container.
 
-[o] No FLOATS!
-[o] Responsive and mobile friendly
+(o) No FLOATS!
+(o) Responsive and mobile friendly
 [o] Positioning child elements is MUCH easier
 [o] Flex container's margins do not collapse with the margins of its contents
 [o] Order of elements can easily be changed without editing the source HTML
