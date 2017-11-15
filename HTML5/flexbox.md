@@ -32,3 +32,7 @@ flex-grow | \<number\>;
 flex-shrink | \<number\>;
 flex | \<integer\>;
 order | \<integer\>;
+
+#### What different flex-basis vs width / height ?
+
+* [x] [Good Reference in StackOverflow](https://stackoverflow.com/a/34355447)
