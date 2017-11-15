@@ -4,17 +4,17 @@ Reference: Traversy Media Youtube channel(with http://scratchpad.io/)
 
 #### A CSS3 layout mode that provides an easy and clean way to arrange items within a container.
 
-(o) No FLOATS!
-(o) Responsive and mobile friendly
-[o] Positioning child elements is MUCH easier
-[o] Flex container's margins do not collapse with the margins of its contents
-[o] Order of elements can easily be changed without editing the source HTML
+[x] No FLOATS!
+[x] Responsive and mobile friendly
+[x] Positioning child elements is MUCH easier
+[x] Flex container's margins do not collapse with the margins of its contents
+[x] Order of elements can easily be changed without editing the source HTML
 
 #### Flexible box model concept
 
-[o] The ablity to alter item width and height to best fit in its containers available free space
-[o] Flexbox is direction-agnostic
-[o] Built for small-scale layouts while the upcoming "Grid" specification is for more large scale
+[x] The ablity to alter item width and height to best fit in its containers available free space
+[x] Flexbox is direction-agnostic
+[x] Built for small-scale layouts while the upcoming "Grid" specification is for more large scale
 
 #### Flex properties
 
