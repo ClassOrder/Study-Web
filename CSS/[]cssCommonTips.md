@@ -8,7 +8,7 @@ CSS Class를 만들 때에는 다음과 같은 사항을 염두에 두면 더욱
 
 ### Common Class를 만들어 common.css에 담아 사용할 것
 
-Class에는 CSS Class를 얼마든지 넣을 수 있기 때문에 잘 사용되지 않지만 충분히 이해할 수 있는 단어로 Class명을 설정하고 사용하면 페이지를 효율적으로 꾸밀 수 있다.
+Element의 Class 속성에는 CSS Class를 얼마든지 넣을 수 있기 때문에 잘 사용되지 않지만 충분히 이해할 수 있는 단어로 Class명을 설정하고 사용하면 페이지를 효율적으로 꾸밀 수 있다.
 
 ~~~css
 .font-color-darkgray {
