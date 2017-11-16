@@ -2,7 +2,7 @@
 
 Reference: Traversy Media Youtube channel(with http://scratchpad.io/)
 
-#### A CSS3 layout mode that provides an easy and clean way to arrange items within a container.
+### A CSS3 layout mode that provides an easy and clean way to arrange items within a container.
 
 - [x] No FLOATS!
 - [x] Responsive and mobile friendly
@@ -10,13 +10,13 @@ Reference: Traversy Media Youtube channel(with http://scratchpad.io/)
 - [x] Flex container's margins do not collapse with the margins of its contents
 - [x] Order of elements can easily be changed without editing the source HTML
 
-#### Flexible box model concept
+### Flexible box model concept
 
 - [x] The ablity to alter item width and height to best fit in its containers available free space
 - [x] Flexbox is direction-agnostic
 - [x] Built for small-scale layouts while the upcoming "Grid" specification is for more large scale
 
-#### Flex properties
+### Flex properties
 
 PROPERTIES | OPTIONS
 :---------:|:----------------------------:
@@ -33,7 +33,7 @@ flex-shrink | \<number\>;
 flex | \<integer\>;
 order | \<integer\>;
 
-#### What different flex-basis vs width / height ?
+### What different flex-basis vs width / height ?
 
 * [x] [Good Reference in StackOverflow](https://stackoverflow.com/a/34355447)
 * [x] [Korean Language for flexbox & good links](http://webclub.tistory.com/259)
