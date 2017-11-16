@@ -47,6 +47,25 @@
                 border-radius: 20px;
                 color: #ddd;
             }
+            
+            .FlexWrapper {
+                background-color: indigo;
+                display: flex;
+                height: 200px;
+                width: 400px;
+/*                align-items: center;*/
+            }
+            
+            .FlexInner {
+                background-color: #34005B;
+                display: flex;
+                height: 100px;
+                width: 200px;
+            }
+            
+            .AlignSelf {
+                align-self: flex-end;   
+            }
         </style>
     </head>
     <body>
@@ -59,6 +78,11 @@
         </div>
         <div>
             <p>Here is a sentence with a <a href="http://www.w3.org/TR/css-flexbox-1/#flex-containers" class="InlineFlex">inline-flex link</a></p>
+        </div>
+        <div class="FlexWrapper">
+            <div class="FlexInner">I am content in the inner Flexbox</div>
+            <div class="FlexInner">I am content in the inner Flexbox</div>
+            <div class="FlexInner">I am content in the inner Flexbox</div>
         </div>
     </body>
 </html>
