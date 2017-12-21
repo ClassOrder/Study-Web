@@ -71,5 +71,15 @@ colgroup - col
 image
 
 ## 무료 이미지 제공 사이트
-
 <a href="https://pixabay.com">Pixabay</a>
+<br>
+
+Graphic Interchange Form
+- 표시할 수 있는 색상 수는 최대 256색. 파일 크기가 작고, 투명한 배경 및 움직이는 이미지를 만들 수 있다.
+
+Joint Photographic Experts Group
+- 다양한 색상과 명암을 표현할 수 있다. 저장을 반복하다보면 화질이 떨어질 수 있다.
+
+Portable Network Graphic
+- 투명 배경을 만들 수 있고, 다양한 색상을 표현할 수 있다. 최근 많이 사용하는 형식.
+
