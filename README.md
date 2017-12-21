@@ -56,6 +56,4 @@ em & i
 
 ruby
 - 주석을 함께 표시하는 기능
-~~~html
 <ruby>루비<rt>ruby</rt></ruby>
-~~~
