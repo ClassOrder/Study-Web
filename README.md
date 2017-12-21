@@ -83,3 +83,37 @@ Joint Photographic Experts Group
 Portable Network Graphic
 - 투명 배경을 만들 수 있고, 다양한 색상을 표현할 수 있다. 최근 많이 사용하는 형식.
 
+alt
+bullet이나 작은 아이콘 등의 이미지에는 alt="" 로 해도 된다고 한다.
+
+figure
+- 설명 글을 붙일 대상을 지정
+
+figcaption
+- 설명 글
+
+a - href
+- 링크된 문서, 사이트의 주소로 이동합니다.
+
+a - target
+- 링크된 문서, 사이트가 표시될 위치를 지정합니다.
+
+a - download
+- 링크된 문서, 사이트로 이동하는 것이 아닌 다운로드합니다.
+
+a - rel
+- 링크된 문서, 사이트와 현재 문서와의 관계를 알려줍니다.
+
+a - hreflang
+- 링크된 문서, 사이트의 언어를 지정합니다.
+
+a - type
+- 링크된 문서 파일의 유형을 알려줍니다.
+~~~css
+<style>
+    a {
+        text-decoration: none;
+        color: black;
+    }
+<style>
+~~~
