@@ -56,4 +56,5 @@ em & i
 
 ruby
 - 주석을 함께 표시하는 기능
-<ruby>루비<rt>ruby</rt></ruby>
+<br>
+루비실험: <ruby>루비<rt>ruby</rt></ruby>
