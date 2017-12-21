@@ -109,7 +109,7 @@ a - hreflang
 
 a - type
 - 링크된 문서 파일의 유형을 알려줍니다.
-~~~css
+~~~html
 <style>
     a {
         text-decoration: none;
