@@ -42,7 +42,7 @@ blockquote & q
 
 pre
 - 입력하는 그대로 화면에 표시.
-- 웹 접근성에 대해 고려: 스크린 리더가 <pre> 태그 적용 부분은 스킵.
+- 웹 접근성에 대해 고려: 스크린 리더가 pre 태그 적용 부분은 스킵.
 - 반드시 사용해야 할 경우 대체 텍스트를 추가.
 
 strong & b
@@ -57,3 +57,17 @@ em & i
 ruby
 - 주석을 함께 표시하는 기능
 - 루비예제: <ruby>루비<rt>ruby</rt></ruby>
+
+table - caption
+
+table - figcaption
+
+table - aria-describedby
+- 표에 대한 설명을 제공
+
+colgroup - col
+- 여러 열을 묶어 스타일 지정
+
+## 무료 이미지 제공 사이트
+
+<a href="https://pixabay.com">Pixabay</a>
