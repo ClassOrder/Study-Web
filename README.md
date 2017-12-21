@@ -68,6 +68,8 @@ table - aria-describedby
 colgroup - col
 - 여러 열을 묶어 스타일 지정
 
+image
+
 ## 무료 이미지 제공 사이트
 
 <a href="https://pixabay.com">Pixabay</a>
