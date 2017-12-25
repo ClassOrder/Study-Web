@@ -2,7 +2,7 @@
 
 ## 추천 사이트
 [Can I use?](http://caniuse.com/): 폼 태그와 속성들을 각 브라우저에서 지원하는지 버전별로 확인할 수 있는 사이트
-
+[Why can't we find FED](https://whycantwefindfed.jjperezaguinaga.com)
 !DOCTYPE
 - 문서의 유형을 지정
 
@@ -124,3 +124,42 @@ target
 - _self: target 속성의 기본 값입니다. 링크가 존재하는 화면에서 열립니다.
 - _parent: 프레임을 사용했을 경우, 링크 내용을 부모 프레임에 표시합니다.
 - _top: 프레임을 사용했을 경우, 프레임에서 벗어나 링크 내용을 전체 화면으로 표시합니다.
+
+input type="range"
+- 슬라이드 막대를 가지고 숫자를 지정할 수 있게 해주는 인풋 타입 속성
+
+input type="color"
+- 색상을 선택할 수 있게 하는 인풋 타입 속성
+
+input type="data | month | week"
+- 날짜를 선택할 수 있게 하는 인풋 타입 속성
+
+input type="image"
+- submit 대신 이미지를 넣은 버튼을 만들 수 있게 해주는 인풋 타입 속성
+
+placeholder
+- 입력에 대한 도움말 등을 표시
+
+autofocus
+- 입력 커서를 바로 추가하여 표시
+
+readonly
+- 읽기 전용
+
+required
+- 필수
+
+select, optgroup, option
+- 드롭다운 목록을 생성
+
+datalist
+- select와 비슷한 방식으로 선택해서 생성
+
+output
+- 계산된 결과값임을 브라우저에게 인식
+
+progress
+- 진행상태를 표시
+
+meter
+- low, high, optimum
