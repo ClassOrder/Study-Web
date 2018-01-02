@@ -1,3 +1,4 @@
+// var를 활용했을 경우
 function toWeirdCase(s){
     var result = s.split("");
     
@@ -8,6 +9,8 @@ function toWeirdCase(s){
     result.join("");
     return result;
 }
+
+// let을 활용했을 경우에는 클로저 부분에서 에러 발생.   
 
 // 아래는 테스트로 출력해 보기 위한 코드입니다.
 console.log("결과 : " + toWeirdCase("try hello world"));
