@@ -1,4 +1,4 @@
-// var를 활용했을 경우
+// var
 function toWeirdCase(s){
     var result = s.split("");
     
@@ -14,3 +14,10 @@ function toWeirdCase(s){
 
 // 아래는 테스트로 출력해 보기 위한 코드입니다.
 console.log("결과 : " + toWeirdCase("try hello world"));
+
+function closerTest() {
+    var result = [];
+    for(var i=0; i < 5; i++) {
+        result.push(function() { return i });
+    }
+}
