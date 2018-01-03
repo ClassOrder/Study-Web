@@ -26,6 +26,8 @@ boundGetX();
 // 81의 결과값이 나옴.
 
 /**
-* 좀더 첨언을 해보자면,
-* 굳이 모듈이 아니더라도
+* module을 넣지 않더라도 this.x가 가리킬 수 있는 x의 값을 가지고 있는 객체라면 가능하다.
 * */
+var checkone = { x: 10 };
+var boundGetX2 = retrieve.bind(checkone);
+boundGetX2();
