@@ -31,3 +31,4 @@ boundGetX();
 var checkone = { x: 10 };
 var boundGetX2 = retrieve.bind(checkone);
 boundGetX2();
+// 결과값으로 10이 출력된다.
