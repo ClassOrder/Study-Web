@@ -24,3 +24,8 @@ retrieve();
 var boundGetX = retrieve.bind(module);
 boundGetX();
 // 81의 결과값이 나옴.
+
+/**
+* 좀더 첨언을 해보자면,
+* 굳이 모듈이 아니더라도
+* */
