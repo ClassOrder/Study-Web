@@ -16,11 +16,15 @@
   * arguments를 활용한 자릿수 강제하기
   */
 
-  function pair(x, y){
-      if(arguments.length !== 2) throw new Error('Need exactly 2 arguments');
-  }
+function pair(x, y){
+    if(arguments.length !== 2) throw new Error('Need exactly 2 arguments');
+}
 
-  pair(10);
+pair(10);
+
+/**
+* 반대로 arguments를 활용한 매개변수의 수와 관계없이 활용하기
+*/
 
 function logArgs() {
     for(var i=0; i < arguments.length; i++){
