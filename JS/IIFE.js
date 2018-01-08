@@ -24,3 +24,21 @@ var x = 23;
 (function (twice) {
     console.log(twice);
 }(x * 2));
+
+var setValue = function () {
+    var preValue;
+    return function(value){
+        if(value !== preValue) {
+            console.log('Changed: ' + preValue + ' => ' + value);
+            preValue = value;
+        } else {
+            console.log('Not found Values');
+        }
+    };
+}();
+
+setValue();
+
+/**
+ * 함수의 반환에 주의해서 읽어볼 것..
+ */
