@@ -21,3 +21,11 @@
   }
 
   pair(10);
+
+function logArgs() {
+    for(var i=0; i < arguments.length; i++){
+        console.log(i +'. ' + arguments[i]);
+    }
+}
+
+logArgs('Hello', 'Worlds', 'I\'m', 'here!');
