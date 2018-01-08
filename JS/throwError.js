@@ -7,3 +7,9 @@ if ( somethingBadHappened ) {
 if ( somethingBadHappened ) {
     throw new Error('Somthing bad happened..');
 }
+
+
+/**
+* try-catch-finally
+* try에 return 문이 있을 경우 finally 블록은 그 함수나 메서드를 떠나기 '바로 직전'에 실행됩니다.
+*/
