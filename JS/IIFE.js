@@ -12,7 +12,7 @@
 // 현재 스코프에 생성되지 않게 하려면 IIFE 패턴을 쓰면 된다.
 
 var File = function() {
-    var UNTITLED = ''untitled';
+    var UNTITLED = 'Untitled';
     function File(name) {
         this.name = name || UNTITLED;
     }
@@ -20,6 +20,7 @@ var File = function() {
 }();
 
 var x = 23;
+
 (function (twice) {
     console.log(twice);
 }(x * 2));
