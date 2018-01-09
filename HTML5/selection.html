@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function on_key_press(event) {
+            'use strict';
+            let keyCode = event.keyCode;
+            if(keyCode == 64) {
+                console.log("키 @ 입력.");
+                let input = document.getElementById("textbox");
+                input.focus();
+                console.log(input.setSelectionRange(2,5));
+            }
+        }
+    </script>
+    <input type=button name=naice value=Type>
+    <br>
+    &amp;&copy;&amp;copy;
+    <br>
+    <ruby>Dimension<rt>디멘션</rt></ruby>
+    <ruby>
+        漢 <rp>(</rp><rt>Kan</rt><rp>)</rp>
+        字 <rp>(</rp><rt>ji</rt><rp>)</rp>
+      </ruby>
+      <ruby>
+        明日 <rp>(</rp><rt>Ashita</rt><rp>)</rp>
+      </ruby>
+      明日<sup>명일</sup>
+      明日<sub>명일</sub>
+      변수의 크기<sup>dimension</sup>
+      <br>
+      <textarea onkeypress="on_key_press(event)" id="textbox"></textarea>
+</body>
+</html>
