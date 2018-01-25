@@ -1,27 +1,92 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Javascript 모바일 대응</title>
     <style>
-    body{
-        overflow: hidden;
-        height: 100%;
-    }
-    h1 {
-        display: inline-block;
-        margin-left: auto;
-        margin-right: auto;
-    }
+        body {
+            overflow: hidden;
+            box-sizing: border-box;
+            margin: 0;
+            text-align: center;
+        }
+
+        #mainTitle {
+            position: absolute;
+            display: inline-block;
+            font-size: 35px;
+            font-weight: bolder;
+            -webkit-margin-before: 0;
+            -webkit-margin-after: 0;
+        }
+
+        #LanguageC {
+            border: 1px solid green;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            border-radius: 100px;
+            position: absolute;
+            text-decoration: none;
+
+        }
+
+        #LanguageC>p {
+            font-size: 30px;
+        }
     </style>
 </head>
+
 <body id="body">
-        <h1>Class Order</h1>
+    <nav>
+        <ul style="list-style-type: none">
+            <li>
+                <a id="LanguageC" href="#">
+                    <p>C</p>
+                </a>
+            </li>
+            <li>
+                <a id="LanguageC" href="#">
+                    <p>C</p>
+                </a>
+            </li>
+            <li>
+                <a id="LanguageC" href="#">
+                    <p>C</p>
+                </a>
+            </li>
+            <li>
+                <a id="LanguageC" href="#">
+                    <p>C</p>
+                </a>
+            </li>
+            <li>
+                <a id="LanguageC" href="#">
+                    <p>C</p>
+                </a>
+            </li>
+        </ul>
+
+    </nav>
+    <h1 id="mainTitle">Class Order</h1>
     <script>
         "use strict";
-        document.getElementById("body").style.width = document.body.clientWidth + "px";
+        let windowWidth = window.innerWidth;
+        let windowHeight = window.innerHeight;
+        document.getElementById("body").style.width = windowWidth + "px";
+        document.getElementById("body").style.height = windowHeight + "px";
+        document.getElementById("mainTitle").style.top = (windowHeight / 2 - 35) + "px";
+        document.getElementById("mainTitle").style.height = windowWidth / 2 + "px";
+
+        window.innerHeight;
+        window.innerWidth;
+        window.outerWidth;
+        window.outerHeight;
+
     </script>
 </body>
+
 </html>
