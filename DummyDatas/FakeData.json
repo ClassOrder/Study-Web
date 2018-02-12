@@ -1,0 +1,14 @@
+{
+    "name": "Magarett",
+    "Level": 1,
+    "Exp": 39,
+    "Status": {
+        "Strength": 30,
+        "Agility": 56,
+        "Armor": 5,
+        "MaxHP": 125,
+        "MaxMP": 32
+    },
+    "HP": 47,
+    "MP": 32
+}
