@@ -58,3 +58,5 @@ user agent stylesheet
 input, textarea, select, button, meter, progress {
     -webkit-writing-mode: horizontal-tb;
 }
+
+https://github.com/wonism/TIL/blob/master/front-end/browser/reflow-repaint.md
